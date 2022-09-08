@@ -1,0 +1,13 @@
+export { AsyncPipe, CurrencyPipe, DatePipe, DecimalPipe, I18nPluralPipe, I18nSelectPipe, JsonPipe, KeyValuePipe, LowerCasePipe, PercentPipe, SlicePipe, TitleCasePipe, UpperCasePipe } from '@angular/common';
+export { EzCurrencyPipe } from './lib/ez-currency.pipe';
+export { EzDebouncePipe } from './lib/ez-debounce.pipe';
+export { EzDefaultPipe } from './lib/ez-default.pipe';
+export { EzElementPositionPipe } from './lib/ez-element-position.pipe';
+export { EzMathPipe } from './lib/ez-math.pipe';
+export { EzNumberPipe } from './lib/ez-number.pipe';
+export { EzOrdinalSuffixPipe } from './lib/ez-ordinal-suffix.pipe';
+export { EzTextPipe } from './lib/ez-text.pipe';
+export { EzTypingPipe } from './lib/ez-typing.pipe';
+export { EzWordcountPipe } from './lib/ez-word-count.pipe';
+export { EzPipesModule } from './lib/ez-pipes-angular.module';
+export { Countries, CoutryConvertType, MathOperationType, NumberFormats, TextFormats } from './lib/ez-pipes-angular.type';

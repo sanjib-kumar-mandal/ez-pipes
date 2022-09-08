@@ -1,0 +1,55 @@
+{
+  "name": "ez-pipes",
+  "description": "Pipes are available to shorten your coading time. Available pipes are very useful to evaluate information",
+  "bugs": {},
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^14.1.0",
+    "@angular/core": "^14.1.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Sanjib Kumar Mandal",
+    "email": "sanjib0248@gmail.com",
+    "url": "https://koniat.com/"
+  },
+  "keywords": [
+    "Angular Pipes",
+    "Pipe",
+    "ezPipes",
+    "ezText",
+    "ezNumber",
+    "ezCurrency"
+  ],
+  "funding": {
+    "type": "Individual",
+    "url": "https://paypal.me/SANJIBMANDAL?country.x=IN&locale.x=en_GB"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "module": "fesm2015/ez-pipes.mjs",
+  "es2020": "fesm2020/ez-pipes.mjs",
+  "esm2020": "esm2020/ez-pipes.mjs",
+  "fesm2020": "fesm2020/ez-pipes.mjs",
+  "fesm2015": "fesm2015/ez-pipes.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/ez-pipes.mjs",
+      "es2020": "./fesm2020/ez-pipes.mjs",
+      "es2015": "./fesm2015/ez-pipes.mjs",
+      "node": "./fesm2015/ez-pipes.mjs",
+      "default": "./fesm2020/ez-pipes.mjs"
+    }
+  },
+  "sideEffects": false
+}
