@@ -2256,6 +2256,21 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.2.0", ngImpor
                 }]
         }] });
 
+class EzLoggerPipe {
+    transform(value, shouldLog = true) {
+        if (shouldLog) {
+            console.log(value);
+        }
+        return value;
+    }
+}
+EzLoggerPipe.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "14.2.0", ngImport: i0, type: EzLoggerPipe, deps: [], target: i0.ɵɵFactoryTarget.Pipe });
+EzLoggerPipe.ɵpipe = i0.ɵɵngDeclarePipe({ minVersion: "14.0.0", version: "14.2.0", ngImport: i0, type: EzLoggerPipe, name: "ezLogger" });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.2.0", ngImport: i0, type: EzLoggerPipe, decorators: [{
+            type: Pipe,
+            args: [{ name: 'ezLogger' }]
+        }] });
+
 class EzPipesModule {
 }
 EzPipesModule.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "14.2.0", ngImport: i0, type: EzPipesModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule });
@@ -2268,7 +2283,8 @@ EzPipesModule.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "14.0.0", version: 
         EzWordcountPipe,
         EzElementPositionPipe,
         EzTypingPipe,
-        EzMathPipe], imports: [CurrencyPipe,
+        EzMathPipe,
+        EzLoggerPipe], imports: [CurrencyPipe,
         DatePipe,
         DecimalPipe,
         PercentPipe,
@@ -2302,7 +2318,8 @@ EzPipesModule.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "14.0.0", version: 
         EzWordcountPipe,
         EzElementPositionPipe,
         EzTypingPipe,
-        EzMathPipe] });
+        EzMathPipe,
+        EzLoggerPipe] });
 EzPipesModule.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "14.2.0", ngImport: i0, type: EzPipesModule });
 i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.2.0", ngImport: i0, type: EzPipesModule, decorators: [{
             type: NgModule,
@@ -2317,7 +2334,8 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.2.0", ngImpor
                         EzWordcountPipe,
                         EzElementPositionPipe,
                         EzTypingPipe,
-                        EzMathPipe
+                        EzMathPipe,
+                        EzLoggerPipe
                     ],
                     imports: [
                         CurrencyPipe,
@@ -2357,7 +2375,8 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.2.0", ngImpor
                         EzWordcountPipe,
                         EzElementPositionPipe,
                         EzTypingPipe,
-                        EzMathPipe
+                        EzMathPipe,
+                        EzLoggerPipe
                     ]
                 }]
         }] });
@@ -2370,5 +2389,5 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.2.0", ngImpor
  * Generated bundle index. Do not edit.
  */
 
-export { EzCurrencyPipe, EzDebouncePipe, EzDefaultPipe, EzElementPositionPipe, EzMathPipe, EzNumberPipe, EzOrdinalSuffixPipe, EzPipesModule, EzTextPipe, EzTypingPipe, EzWordcountPipe };
+export { EzCurrencyPipe, EzDebouncePipe, EzDefaultPipe, EzElementPositionPipe, EzLoggerPipe, EzMathPipe, EzNumberPipe, EzOrdinalSuffixPipe, EzPipesModule, EzTextPipe, EzTypingPipe, EzWordcountPipe };
 //# sourceMappingURL=ez-pipes.mjs.map

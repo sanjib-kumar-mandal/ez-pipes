@@ -1,8 +1,10 @@
 {
   "name": "ez-pipes",
   "description": "Pipes are available to shorten your coading time. Available pipes are very useful to evaluate information",
-  "bugs": {},
-  "version": "0.0.1",
+  "bugs": {
+    "url": "https://github.com/sanjib-kumar-mandal/ez-pipes/issues"
+  },
+  "version": "0.0.3",
   "peerDependencies": {
     "@angular/common": "^14.1.0",
     "@angular/core": "^14.1.0"
@@ -30,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/sanjib-kumar-mandal/ez-pipes"
   },
   "module": "fesm2015/ez-pipes.mjs",
   "es2020": "fesm2020/ez-pipes.mjs",

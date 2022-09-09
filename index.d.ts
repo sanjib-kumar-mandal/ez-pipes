@@ -9,5 +9,6 @@ export { EzOrdinalSuffixPipe } from './lib/ez-ordinal-suffix.pipe';
 export { EzTextPipe } from './lib/ez-text.pipe';
 export { EzTypingPipe } from './lib/ez-typing.pipe';
 export { EzWordcountPipe } from './lib/ez-word-count.pipe';
+export { EzLoggerPipe } from './lib/ez-logger.pipe';
 export { EzPipesModule } from './lib/ez-pipes-angular.module';
 export { Countries, CoutryConvertType, MathOperationType, NumberFormats, TextFormats } from './lib/ez-pipes-angular.type';
